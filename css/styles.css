@@ -13,15 +13,15 @@
   --color-dairy: #fcfcfc;
 }
 body {
-  font-family: roboto, sans-serif;
-  color: var(--color-navy-blue);
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: #ffffff;
 }
 
 .list {
   list-style: none;
 }
-.link,
-.logo {
+.link {
   text-decoration: none;
 }
 .link:hover,
@@ -29,22 +29,27 @@ body {
   color: var(--color-ocean);
 }
 .header-logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-iris);
 }
 .header-logo-studio {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-navy-blue);
+}
+.header-address {
+  font-style: normal;
 }
 .header-link {
   font-weight: 500;
@@ -60,7 +65,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
 /* MAIN */
 .section-title {
@@ -71,16 +75,18 @@ body {
   background: var(--color-navy-blue);
 }
 .title {
+  text-align: center;
   width: 496px;
   height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+
   color: var(--color-white);
 }
 .main-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -100,45 +106,56 @@ body {
 
 /* SECTION 2 */
 .caption {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 .content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
 /* SECTION 3 */
 .middle-title {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 /* SECTION 4 */
 .lower-section {
   background: var(--color-cloud);
 }
 .lower-title {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 .worker {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 .worker-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
+}
+.lower-item {
+  background-color: var(--color-white);
 }
 /* FOOTER */
 .footer {
@@ -151,8 +168,9 @@ body {
 .footer-logo-web {
   width: 44px;
   height: 21px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -162,8 +180,9 @@ body {
 .footer-logo-studio {
   width: 71px;
   height: 21px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -197,10 +216,10 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
 .portf-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
